@@ -1,0 +1,277 @@
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+
+    min-height: 600px;
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+
+#menu {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#hero {
+    /*width: 80%;*/
+    height: 100vh;
+    color:white;
+}
+
+
+ul li {
+    display:inline-block;
+    color: #131313;
+    margin-right:10px;
+}
+
+#hero a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+#hero a:hover {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+#menu a:hover {
+    color: #afafaf;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-outline-dark {
+    color: #fff;
+    /*padding: 2px;*/
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: .10rem;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-outline-light {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: .10rem;
+    padding: .475rem .95rem;
+}
+
+.btn-outline-light:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #fff;
+}
+
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.position-1 {
+    padding-left: 190px;
+    padding-top: 15px;
+}
+
+.position-2 {
+    padding-top: 15px;
+}
+
+h3.tx1{
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 0.3;
+}
+
+h1.tx2{
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: -0px;
+}
+
+span.tx1{
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 0px;
+}
+span.tx2{
+    font-size: 26px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 0.5px;
+    line-height: 0.8;
+    display: block;
+}
+
+span.tx3{
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    display: block;
+}
+@media only screen and (max-device-width:960px){
+    .content-header {
+        margin-top: 100px !important;
+    }
+
+    span.tx7{
+        font-size: 32px;
+        font-weight: normal;
+        color: #353535;
+        line-height: 1;
+        margin-top: -30px;
+        text-align: center;
+    }
+
+    span.tx8{
+        font-size: 32px;
+        font-weight: normal;
+        color: #353535;
+        line-height: 1;
+        margin-top: -30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-device-width:1440px){
+    .content-header {
+        margin-top: 140px !important;
+    }
+}
+
+.content-header {
+    margin-top: 200px;
+}
+
+
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-left-20 {
+    padding-left: 20px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-left-21 {
+    margin-left: 21px;
+}
+
+.flex {
+    display: flex;
+}
+span {
+    display: inline-block;
+}
+
+body-content-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+span.tx4{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #131313;
+    letter-spacing: 0.5px;
+    line-height: 3;
+    display: block;
+}
+
+#solutions{
+    display: flex;
+    justify-content: center;
+}
+
+span.tx5{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #353535;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    display: block;
+}
+
+.fa-5x {
+    vertical-align: middle;
+}
+
+.fa-4x {
+    vertical-align: middle;
+}
+
+span.tx6{
+    font-size: 24px;
+    font-weight: bold;
+    color: #353535;
+    letter-spacing: 0.5px;
+    line-height: 5em;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+span.tx7{
+    font-size: 13px;
+    font-weight: normal;
+    color: #353535;
+    line-height: 1;
+    margin-top: -30px;
+    margin-left: 70px;
+}
+
+span.tx8{
+    font-size: 13px;
+    font-weight: normal;
+    color: #353535;
+    line-height: 1;
+    margin-top: -30px;
+    margin-left: 85px;
+}
